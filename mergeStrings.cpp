@@ -8,11 +8,11 @@ public:
         while(i<l1 || j<l2){
             // string s1(1,word1[i]);
             // string s2(1,word2[j]);
-            mxerged+=word1[i];
+            merged+=word1[i];
             merged+=word2[j];
             i++;
             j++;
-        }
+       }
 
         while(i<l1){
             // string s1(1,word1[i]);
